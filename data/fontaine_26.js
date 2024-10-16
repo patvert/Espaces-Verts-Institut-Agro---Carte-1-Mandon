@@ -1,0 +1,1 @@
+var json_fontaine_26 = {"type":"FeatureCollection","name":"fontaine_26","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"qc_id_0":0.0,"qc_id":0.0,"id":"1","volume":null},"geometry":{"type":"MultiPoint","coordinates":[[3.859507849608651,43.616125372381106]]}}]}
