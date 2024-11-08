@@ -126,6 +126,12 @@
             primaryAreaUnit: 'sqmeters',
             secondaryAreaUnit: 'hectares'
         });
+	
+
+let scaleBar = new ScaleBar({view: view});
+view.ui.add(scaleBar, {position: "bottom-left"});
+
+
         measureControl.addTo(map);
         document.getElementsByClassName('leaflet-control-measure-toggle')[0].innerHTML = '';
         document.getElementsByClassName('leaflet-control-measure-toggle')[0].className += ' fas fa-ruler';
